@@ -11,12 +11,14 @@
             "id": "e8616145cbcd8cb4",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "split-diff-view",
               "state": {
-                "currentVersion": "1.14.5"
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-book-up",
-              "title": "Notas de Lançamento 1.14.5"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -211,8 +213,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "16ae27624ab815df",
+  "active": "e8616145cbcd8cb4",
   "lastOpenFiles": [
+    "z_Templates/ex.md",
+    "z_Assets/ex.md",
     "Compendium/SRD 5e/Magic Items/Sling (+1).md",
     "Compendium/SRD 5e/Magic Items/Sledgehammer.md",
     "Compendium/SRD 5e/Magic Items/Silk Rope (50 feet).md",
@@ -237,8 +241,6 @@
     "Compendium/SRD 5e/Magic Items/Sealing Wax.md",
     "Compendium/SRD 5e/Magic Items/Scimitar, Sword of Wounding.md",
     "Compendium/SRD 5e/Magic Items/Scimitar, Sword of Life Stealing.md",
-    "Compendium/SRD 5e/Magic Items/Scimitar of Speed.md",
-    "Compendium/SRD 5e/Magic Items/Scimitar (+3).md",
     "TTRPG Search Backups/ttrpg-search-settings-2026-10-28T13-10-28-072Z.json",
     "TTRPG Search Backups",
     "Compendium/SRD 5e/OptionalFeatures",
