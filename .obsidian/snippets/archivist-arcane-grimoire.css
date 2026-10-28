@@ -1,0 +1,247 @@
+/* Archivist — Arcane Grimoire
+   Apply with: cssclasses: [pc-theme-arcane-grimoire] */
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet {
+  --pc-parchment-light: #f4ead2;
+  --pc-parchment-dark: #d7c49a;
+  --pc-crimson: #30215f;
+  --pc-crimson-light: #5b3f99;
+  --pc-tan: #b99b5f;
+  --pc-tan-muted: #d5bd83;
+  --pc-text-primary: #211a34;
+  --pc-text-muted: #655977;
+  --pc-text-soft: #4e4268;
+  --pc-amber: #986f19;
+  --pc-row-open-bg: rgba(124, 85, 200, 0.13);
+  --pc-font-serif: Georgia, 'Palatino Linotype', Palatino, serif;
+  --pc-font-sans: 'Trebuchet MS', system-ui, sans-serif;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #84642e;
+  border-radius: 3px 14px 14px 3px;
+  box-shadow:
+    0 0 0 5px #211938,
+    0 0 0 7px #c8a966,
+    0 16px 36px rgba(12, 8, 29, 0.35),
+    inset 0 0 60px rgba(98, 70, 35, 0.16);
+  background:
+    radial-gradient(circle at 12% 6%, rgba(255, 244, 194, 0.82), transparent 25rem),
+    radial-gradient(circle at 90% 110%, rgba(74, 47, 135, 0.13), transparent 29rem),
+    repeating-linear-gradient(0deg, rgba(96, 65, 29, 0.035) 0 1px, transparent 1px 5px),
+    var(--pc-parchment-light);
+  animation: arcane-grimoire-open 660ms cubic-bezier(.16, .84, .28, 1) both;
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet::before,
+.pc-theme-arcane-grimoire .archivist-pc-sheet::after {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet::before {
+  inset: 9px 10px;
+  border: 1px solid rgba(86, 56, 20, 0.42);
+  border-radius: 1px 9px 9px 1px;
+  box-shadow: inset 0 0 0 3px rgba(255, 247, 210, 0.32);
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet::after {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  background: linear-gradient(90deg, rgba(29, 19, 51, 0.6), rgba(63, 39, 103, 0.2), transparent);
+  mix-blend-mode: multiply;
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet > * {
+  position: relative;
+  z-index: 1;
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet .pc-header-root {
+  background:
+    linear-gradient(100deg, rgba(43, 28, 78, 0.98), rgba(72, 46, 122, 0.95) 63%, rgba(41, 27, 71, 0.98));
+  color: #fff5d5;
+  border-bottom: 2px solid #d6b465;
+  box-shadow: inset 0 -2px rgba(15, 8, 32, 0.32), 0 5px 12px rgba(34, 19, 63, 0.2);
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet .pc-header-root::after {
+  content: '✦  ✧  ✦';
+  color: #f5d778;
+  letter-spacing: .45em;
+  font-size: 10px;
+  opacity: .82;
+  animation: arcane-sigils 4s ease-in-out infinite;
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet :is(.pc-char-name, .pc-header-name, .pc-name) {
+  color: #fff2c6;
+  font-family: var(--pc-font-serif);
+  font-variant: small-caps;
+  letter-spacing: .06em;
+  text-shadow: 0 1px 0 #160d2b, 0 0 12px rgba(243, 208, 106, 0.25);
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet :is(.pc-tab, .pc-tab-button, button) {
+  transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 9px rgba(49, 29, 87, 0.22);
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet :is(.pc-sidebar, .pc-content) {
+  background-image: linear-gradient(90deg, transparent, rgba(255, 253, 233, 0.18), transparent);
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet :is(.pc-section-title, .pc-block-title, .pc-actions-section-head) {
+  color: #392468;
+  font-family: var(--pc-font-serif);
+  letter-spacing: .1em;
+  text-shadow: 0 1px #fff6d4;
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet .pc-spell-adddrawer,
+.pc-theme-arcane-grimoire .archivist-pc-sheet .pc-spell-prep-body {
+  border: 1px solid rgba(101, 72, 151, 0.25);
+  border-radius: 7px;
+  background: rgba(255, 249, 224, 0.4);
+  box-shadow: inset 0 0 18px rgba(104, 74, 157, 0.05);
+}
+
+/* Open a spell like a newly turned, annotated page. */
+.pc-theme-arcane-grimoire .archivist-pc-sheet :is(.pc-open-expand, .pc-row-open) {
+  animation: arcane-page-turn 320ms cubic-bezier(.2, .8, .28, 1) both;
+  box-shadow: inset 4px 0 #7451b5, inset 0 0 24px rgba(118, 80, 181, 0.1);
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet .pc-open-expand :is(.pc-add-name, .pc-spell-name),
+.pc-theme-arcane-grimoire .archivist-pc-sheet .pc-spell-expand :is(h1, h2, h3, h4, strong) {
+  color: #2e1c5c;
+  background: linear-gradient(105deg, transparent 2%, rgba(255, 214, 65, 0.58) 7%, rgba(255, 235, 124, 0.6) 92%, transparent 96%);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  padding: 0 .18em;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.48);
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet .pc-spell-expand :is(p:first-of-type, mark) {
+  background: linear-gradient(90deg, rgba(255, 224, 79, 0.35), rgba(255, 241, 159, 0.17) 72%, transparent);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  color: #34255c;
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet .pc-spell-expand p:first-of-type {
+  border-left: 3px solid rgba(178, 131, 29, 0.75);
+  border-radius: 2px;
+  padding: .35em .55em;
+  animation: arcane-highlight 540ms ease-out both;
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet .pc-spell-expand :is(hr, .pc-spell-divider) {
+  border-color: #b78f3d;
+  box-shadow: 0 1px rgba(255, 249, 213, 0.9);
+}
+
+.pc-theme-arcane-grimoire .archivist-pc-sheet .pc-spell-srctag {
+  border-color: #7451b5;
+  color: #4b2d89;
+  background: rgba(236, 222, 255, 0.62);
+}
+
+@keyframes arcane-grimoire-open {
+  from { opacity: 0; transform: perspective(1300px) rotateX(1.5deg) translateY(10px) scale(.992); filter: saturate(.8); }
+  to { opacity: 1; transform: perspective(1300px) rotateX(0) translateY(0) scale(1); filter: saturate(1); }
+}
+
+@keyframes arcane-page-turn {
+  from { opacity: .35; transform: perspective(900px) rotateX(-2deg) translateY(-3px); }
+  to { opacity: 1; transform: perspective(900px) rotateX(0) translateY(0); }
+}
+
+@keyframes arcane-highlight {
+  from { background-size: 0% 100%; background-repeat: no-repeat; }
+  to { background-size: 100% 100%; background-repeat: no-repeat; }
+}
+
+@keyframes arcane-sigils {
+  0%, 100% { opacity: .55; text-shadow: 0 0 0 transparent; }
+  50% { opacity: 1; text-shadow: 0 0 10px rgba(255, 220, 110, .8); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pc-theme-arcane-grimoire .archivist-pc-sheet,
+  .pc-theme-arcane-grimoire .archivist-pc-sheet :is(.pc-open-expand, .pc-row-open),
+  .pc-theme-arcane-grimoire .archivist-pc-sheet .pc-spell-expand p:first-of-type,
+  .pc-theme-arcane-grimoire .archivist-pc-sheet .pc-header-root::after {
+    animation: none;
+  }
+}
+
+/* The Archivist sheet is rendered outside the note's cssclasses wrapper. */
+.archivist-pc-sheet {
+  --pc-parchment-light: #f4ead2;
+  --pc-parchment-dark: #d7c49a;
+  --pc-crimson: #30215f;
+  --pc-crimson-light: #5b3f99;
+  --pc-tan: #b99b5f;
+  --pc-tan-muted: #d5bd83;
+  --pc-text-primary: #211a34;
+  --pc-text-muted: #655977;
+  --pc-text-soft: #4e4268;
+  --pc-amber: #986f19;
+  --pc-row-open-bg: rgba(124, 85, 200, 0.13);
+  --pc-font-serif: Georgia, 'Palatino Linotype', Palatino, serif;
+  --pc-font-sans: 'Trebuchet MS', system-ui, sans-serif;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #84642e;
+  border-radius: 3px 14px 14px 3px;
+  box-shadow: 0 0 0 5px #211938, 0 0 0 7px #c8a966, 0 16px 36px rgba(12, 8, 29, .35), inset 0 0 60px rgba(98, 70, 35, .16);
+  background: radial-gradient(circle at 12% 6%, rgba(255, 244, 194, .82), transparent 25rem), radial-gradient(circle at 90% 110%, rgba(74, 47, 135, .13), transparent 29rem), repeating-linear-gradient(0deg, rgba(96, 65, 29, .035) 0 1px, transparent 1px 5px), var(--pc-parchment-light);
+  animation: arcane-grimoire-open 660ms cubic-bezier(.16, .84, .28, 1) both;
+}
+
+.archivist-pc-sheet .pc-header-root {
+  background: linear-gradient(100deg, rgba(43, 28, 78, .98), rgba(72, 46, 122, .95) 63%, rgba(41, 27, 71, .98));
+  color: #fff5d5;
+  border-bottom: 2px solid #d6b465;
+}
+
+.archivist-pc-sheet :is(.pc-section-title, .pc-block-title, .pc-actions-section-head) {
+  color: #392468;
+  font-family: var(--pc-font-serif);
+  letter-spacing: .1em;
+}
+
+.archivist-pc-sheet :is(.pc-open-expand, .pc-row-open) {
+  animation: arcane-page-turn 320ms cubic-bezier(.2, .8, .28, 1) both;
+  box-shadow: inset 4px 0 #7451b5, inset 0 0 24px rgba(118, 80, 181, .1);
+}
+
+.archivist-pc-sheet .pc-open-expand :is(.pc-add-name, .pc-spell-name),
+.archivist-pc-sheet .pc-spell-expand :is(h1, h2, h3, h4, strong) {
+  color: #2e1c5c;
+  background: linear-gradient(105deg, transparent 2%, rgba(255, 214, 65, .58) 7%, rgba(255, 235, 124, .6) 92%, transparent 96%);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  padding: 0 .18em;
+}
+
+.archivist-pc-sheet .pc-spell-expand :is(p:first-of-type, mark) {
+  background: linear-gradient(90deg, rgba(255, 224, 79, .35), rgba(255, 241, 159, .17) 72%, transparent);
+  color: #34255c;
+}
+
+.archivist-pc-sheet .pc-spell-expand p:first-of-type {
+  border-left: 3px solid rgba(178, 131, 29, .75);
+  border-radius: 2px;
+  padding: .35em .55em;
+  animation: arcane-highlight 540ms ease-out both;
+}

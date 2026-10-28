@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "compendiumRoot": "Compendium",
+    "defaultMultiColumn": false,
+    "multiColumnThreshold": 20,
+    "playerCharactersFolder": "PlayerCharacters",
+    "portraitsFolder": "",
+    "hiddenCompendiums": []
+  }
+}

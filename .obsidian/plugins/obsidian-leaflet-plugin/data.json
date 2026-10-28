@@ -1,0 +1,402 @@
+{
+  "mapMarkers": [
+    {
+      "id": "icewinddalemap",
+      "lastAccessed": 1789168167721,
+      "markers": [
+        {
+          "id": "ID_ba2a2b59ba8b",
+          "type": "default",
+          "loc": [
+            2042.7999877929688,
+            2830.404142800954
+          ],
+          "link": "caer dineval",
+          "layer": "%5B%5B263-icewind-dale.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.2358670119000795,
+            -0.2423250282079441
+          ],
+          "description": null,
+          "minZoom": 0,
+          "maxZoom": -1,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b9ab5808fb1a",
+          "type": "default",
+          "loc": [
+            2047.3999938964844,
+            2834.6015771711423
+          ],
+          "link": "caer dineval",
+          "layer": "%5B%5B263-icewind-dale.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.2362167980975952,
+            -0.24287069915735282
+          ],
+          "description": null,
+          "minZoom": -1,
+          "maxZoom": 0,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3bfaca19aa09",
+          "type": "default",
+          "loc": [
+            1366.4500122070312,
+            2887.9567874383174
+          ],
+          "layer": "%5B%5B263-icewind-dale.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_19784a580838",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_79fadaea2b29",
+              "targets": {
+                "vertexIds": [
+                  "ID_393a686b3a58",
+                  "ID_5b8a0a7838d8",
+                  "ID_5ac90b69aa18",
+                  "ID_a82929d99809",
+                  "ID_a8fa4b18ca7a",
+                  "ID_abd97a5b09e9",
+                  "ID_189ad92ab96b",
+                  "ID_e9abeac87b3a"
+                ]
+              }
+            },
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_288bea699bdb",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_abd97a5b09e9",
+              "targets": {
+                "vertexIds": [
+                  "ID_393a686b3a58",
+                  "ID_5b8a0a7838d8",
+                  "ID_5ac90b69aa18",
+                  "ID_a82929d99809",
+                  "ID_a8fa4b18ca7a",
+                  "ID_79fadaea2b29",
+                  "ID_189ad92ab96b",
+                  "ID_e9abeac87b3a"
+                ]
+              }
+            },
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_5a886988d83b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_a8fa4b18ca7a",
+              "targets": {
+                "vertexIds": [
+                  "ID_393a686b3a58",
+                  "ID_5b8a0a7838d8",
+                  "ID_5ac90b69aa18",
+                  "ID_a82929d99809",
+                  "ID_abd97a5b09e9",
+                  "ID_79fadaea2b29",
+                  "ID_189ad92ab96b",
+                  "ID_e9abeac87b3a"
+                ]
+              }
+            },
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_4808681baa0b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_a82929d99809",
+              "targets": {
+                "vertexIds": [
+                  "ID_393a686b3a58",
+                  "ID_5b8a0a7838d8",
+                  "ID_5ac90b69aa18",
+                  "ID_a8fa4b18ca7a",
+                  "ID_abd97a5b09e9",
+                  "ID_79fadaea2b29",
+                  "ID_189ad92ab96b",
+                  "ID_e9abeac87b3a"
+                ]
+              }
+            },
+            {
+              "lat": 1982.8125,
+              "lng": 2681.07900042149,
+              "id": "ID_ba9b0b3bcbea",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 1982.8125,
+              "lng": 2681.07900042149,
+              "id": "ID_6aa938abd989",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_5ac90b69aa18",
+              "targets": {
+                "vertexIds": [
+                  "ID_393a686b3a58",
+                  "ID_5b8a0a7838d8",
+                  "ID_a82929d99809",
+                  "ID_a8fa4b18ca7a",
+                  "ID_abd97a5b09e9",
+                  "ID_79fadaea2b29",
+                  "ID_189ad92ab96b",
+                  "ID_e9abeac87b3a"
+                ]
+              }
+            },
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_5b8a0a7838d8",
+              "targets": {
+                "vertexIds": [
+                  "ID_393a686b3a58",
+                  "ID_5ac90b69aa18",
+                  "ID_a82929d99809",
+                  "ID_a8fa4b18ca7a",
+                  "ID_abd97a5b09e9",
+                  "ID_79fadaea2b29",
+                  "ID_189ad92ab96b",
+                  "ID_e9abeac87b3a"
+                ]
+              }
+            },
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_4899aacadb7b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_da7a7baa4bfb",
+              "targets": {
+                "vertexIds": []
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        },
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_393a686b3a58",
+              "targets": {
+                "vertexIds": [
+                  "ID_5b8a0a7838d8",
+                  "ID_5ac90b69aa18",
+                  "ID_a82929d99809",
+                  "ID_a8fa4b18ca7a",
+                  "ID_abd97a5b09e9",
+                  "ID_79fadaea2b29",
+                  "ID_189ad92ab96b",
+                  "ID_e9abeac87b3a"
+                ]
+              }
+            },
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_189ad92ab96b",
+              "targets": {
+                "vertexIds": [
+                  "ID_5b8a0a7838d8",
+                  "ID_393a686b3a58",
+                  "ID_5ac90b69aa18",
+                  "ID_a82929d99809",
+                  "ID_a8fa4b18ca7a",
+                  "ID_abd97a5b09e9",
+                  "ID_79fadaea2b29",
+                  "ID_e9abeac87b3a"
+                ]
+              }
+            },
+            {
+              "lat": 1981.9999694824219,
+              "lng": 2681.761320778107,
+              "id": "ID_e9abeac87b3a",
+              "targets": {
+                "vertexIds": [
+                  "ID_5b8a0a7838d8",
+                  "ID_393a686b3a58",
+                  "ID_5ac90b69aa18",
+                  "ID_a82929d99809",
+                  "ID_a8fa4b18ca7a",
+                  "ID_abd97a5b09e9",
+                  "ID_79fadaea2b29",
+                  "ID_189ad92ab96b"
+                ]
+              }
+            }
+          ],
+          "arrows": false,
+          "reversed": false
+        }
+      ],
+      "files": [
+        "1 - world/d&d 5e - Modules/Icewind Dale/Icewind Dale.md"
+      ]
+    },
+    {
+      "id": "CaerDinevalMapLeaf",
+      "lastAccessed": 1789168174825,
+      "markers": [
+        {
+          "id": "ID_0aeb4bd809d8",
+          "type": "default",
+          "loc": [
+            1985.5499572753906,
+            1680.265536318389
+          ],
+          "link": "uphill climb",
+          "layer": "%5B%5B024-map-1-3-caer-dineval.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_58ca085868da",
+          "type": "default",
+          "loc": [
+            936.704361669494,
+            825.8467056703562
+          ],
+          "link": "Dinev's Rest",
+          "layer": "%5B%5B024-map-1-3-caer-dineval.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fa7ab80b2aeb",
+          "type": "default",
+          "loc": [
+            1548.2456549049236,
+            1844.3610763240515
+          ],
+          "link": "CAER",
+          "layer": "%5B%5B024-map-1-3-caer-dineval.webp%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "1 - world/d&d 5e - Modules/Icewind Dale/Capitulo 1- Dez Burgos/caer dineval/caer dineval.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#c70092",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": false,
+  "layerMarkers": true,
+  "previousVersion": "6.0.5",
+  "version": {
+    "major": 6,
+    "minor": 0,
+    "patch": 5
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {},
+  "enableDraw": true,
+  "defaultUnitType": "imperial",
+  "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultAttribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+  "defaultTileSubdomains": "a,b,c,d"
+}

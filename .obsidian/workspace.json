@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "3800b42aa3e4fa14",
+    "type": "split",
+    "children": [
+      {
+        "id": "b47b258991102947",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8616145cbcd8cb4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notas de Lançamento 1.14.5"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "298574323f2aeef2",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e1b168657924486",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "16ae27624ab815df",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "afcf51ecc5af0a98",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "9538619513497acb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8d4a3a25d61208b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd1a64dc8fb04bd3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11d250a3ec0a09d3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "COMECE-AQUI.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "6fbceac261bd0e6f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "13f28ee1a599b288",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "bf3799887ec808a9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "0d55dc2c2ef04b41",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "COMECE-AQUI.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          },
+          {
+            "id": "7ce90bbf685b410b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "helpmate:HelpMate": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "translate:Open translation view": false,
+      "obsidian-kanban:Create new board": false,
+      "ttrpg-vault-search:Open TTRPG Vault Search": false,
+      "ttrpg-vault-search:Open TTRPG Spellbook": false,
+      "ttrpg-vault-search:Open TTRPG Item Search": false,
+      "ttrpg-vault-search:Open TTRPG Bestiary": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false,
+      "archivist-gg:New character": false,
+      "calendarium:Open Calendarium": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "16ae27624ab815df",
+  "lastOpenFiles": [
+    "Compendium/SRD 5e/Magic Items/Sling (+1).md",
+    "Compendium/SRD 5e/Magic Items/Sledgehammer.md",
+    "Compendium/SRD 5e/Magic Items/Silk Rope (50 feet).md",
+    "Compendium/SRD 5e/Magic Items/Signet Ring.md",
+    "Compendium/SRD 5e/Magic Items/Signal Whistle.md",
+    "Compendium/SRD 5e/Magic Items/Sickle (+3).md",
+    "Compendium/SRD 5e/Magic Items/Sickle (+2).md",
+    "Compendium/SRD 5e/Magic Items/Sickle (+1).md",
+    "Compendium/SRD 5e/Magic Items/Shovel.md",
+    "Compendium/SRD 5e/Magic Items/Shortsword (+3).md",
+    "Compendium/SRD 5e/Magic Items/Shortsword (+2).md",
+    "Compendium/SRD 5e/Magic Items/Shortsword (+1).md",
+    "Compendium/SRD 5e/Magic Items/Shortbow (+3).md",
+    "Compendium/SRD 5e/Magic Items/Shortbow (+2).md",
+    "Compendium/SRD 5e/Magic Items/Shortbow (+1).md",
+    "Compendium/SRD 5e/Magic Items/Shield of Missile Attraction.md",
+    "Compendium/SRD 5e/Magic Items/Shield +3.md",
+    "Compendium/SRD 5e/Magic Items/Shield +2.md",
+    "Compendium/SRD 5e/Magic Items/Shield +1.md",
+    "Compendium/SRD 5e/Magic Items/Shawm.md",
+    "Compendium/SRD 5e/Magic Items/Serpent Venom.md",
+    "Compendium/SRD 5e/Magic Items/Sealing Wax.md",
+    "Compendium/SRD 5e/Magic Items/Scimitar, Sword of Wounding.md",
+    "Compendium/SRD 5e/Magic Items/Scimitar, Sword of Life Stealing.md",
+    "Compendium/SRD 5e/Magic Items/Scimitar of Speed.md",
+    "Compendium/SRD 5e/Magic Items/Scimitar (+3).md",
+    "TTRPG Search Backups/ttrpg-search-settings-2026-10-28T13-10-28-072Z.json",
+    "TTRPG Search Backups",
+    "Compendium/SRD 5e/OptionalFeatures",
+    "Compendium/SRD 5e/Magic Items",
+    "Compendium/SRD 5e/Backgrounds",
+    "Compendium/SRD 5e/Subclasses",
+    "Compendium/SRD 5e/Conditions",
+    "Compendium/SRD 5e/Monsters",
+    "Compendium/SRD 5e/Weapons",
+    "Compendium/SRD 5e/Classes",
+    "Materiais-de-teste/Token-azul.png",
+    "Materiais-de-teste/Mapa-teste-grid-50px.png",
+    "atlas-vtt/assets/Assassin_1792454800257_9rdn12.webp",
+    "atlas-vtt/assets/Occultist_1792454800316_7ikha3.webp",
+    "atlas-vtt/assets/Knight_1792454800201_ld6plq.webp",
+    "atlas-vtt/assets/Wizard_1792454800141_rn6et1.webp",
+    "atlas-vtt/assets/Warlock_1792454800087_pf59j7.webp",
+    "atlas-vtt/assets/Rogue_1792454800038_z01i7q.webp",
+    "atlas-vtt/assets/Ranger_1792454799984_3rfo57.webp",
+    "atlas-vtt/assets/Paladin_1792454799940_x22q48.webp"
+  ]
+}

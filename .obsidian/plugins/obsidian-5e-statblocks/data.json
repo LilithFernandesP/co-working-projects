@@ -1,0 +1,229 @@
+{
+  "monsters": [
+    [
+      "Cultist (XMM)",
+      {
+        "name": "Cultist (XMM)",
+        "size": "Small or Medium",
+        "type": "humanoid",
+        "alignment": "Neutral",
+        "ac": 12,
+        "hp": 9,
+        "hit_dice": "2d8",
+        "modifier": 1,
+        "stats": [
+          11,
+          12,
+          10,
+          10,
+          11,
+          10
+        ],
+        "speed": "30 ft.",
+        "saves": [
+          {
+            "wisdom": 2
+          }
+        ],
+        "skillsaves": [
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/skills.md#Deception|Deception<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+2"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/skills.md#Religion|Religion<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+2"
+          }
+        ],
+        "gear": [
+          "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/items/leather-armor-xphb.md|leather armor<STATBLOCK-MARKDOWN-LINK>",
+          "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/items/sickle-xphb.md|sickle<STATBLOCK-MARKDOWN-LINK>"
+        ],
+        "senses": "passive Perception 10",
+        "languages": "Common",
+        "cr": "1/8",
+        "actions": [
+          {
+            "desc": "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 3 (1d4 + 1) Slashing damage plus 1 Necrotic damage.",
+            "name": "Ritual Sickle"
+          }
+        ],
+        "source": [
+          "XMM"
+        ],
+        "image": "/3-Mechanics/CLI/bestiary/humanoid/token/cultist-xmm.webp",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Cultist Fanatic (XMM)",
+      {
+        "name": "Cultist Fanatic (XMM)",
+        "size": "Small or Medium",
+        "type": "humanoid",
+        "alignment": "Neutral",
+        "ac": 13,
+        "hp": 44,
+        "hit_dice": "8d8 + 8",
+        "modifier": 2,
+        "stats": [
+          11,
+          14,
+          12,
+          10,
+          14,
+          13
+        ],
+        "speed": "30 ft.",
+        "saves": [
+          {
+            "wisdom": 4
+          }
+        ],
+        "skillsaves": [
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/skills.md#Deception|Deception<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+3"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/skills.md#Persuasion|Persuasion<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+3"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/skills.md#Religion|Religion<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+2"
+          }
+        ],
+        "gear": [
+          "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/items/holy-symbol-xphb.md|holy symbol<STATBLOCK-MARKDOWN-LINK>",
+          "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/items/leather-armor-xphb.md|leather armor<STATBLOCK-MARKDOWN-LINK>"
+        ],
+        "senses": "passive Perception 12",
+        "languages": "Common",
+        "cr": "2",
+        "actions": [
+          {
+            "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 6 (1d8 + 2) Slashing damage plus 7 (2d6) Necrotic damage.",
+            "name": "Pact Blade"
+          },
+          {
+            "desc": "The cultist casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 12, +4 to hit with spell attacks):\n\n**At will:** <STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/spells/light-xphb.md|Light<STATBLOCK-MARKDOWN-LINK>, <STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/spells/thaumaturgy-xphb.md|Thaumaturgy<STATBLOCK-MARKDOWN-LINK>\n\n**2/day:** <STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/spells/command-xphb.md|Command<STATBLOCK-MARKDOWN-LINK>\n\n**1/day:** <STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/spells/hold-person-xphb.md|Hold Person<STATBLOCK-MARKDOWN-LINK>",
+            "name": "Spellcasting"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "desc": "The cultist casts the <STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/spells/spiritual-weapon-xphb.md|Spiritual Weapon<STATBLOCK-MARKDOWN-LINK> spell, using the same spellcasting ability as Spellcasting.\n",
+            "name": "Spiritual Weapon (2/Day)"
+          }
+        ],
+        "source": [
+          "XMM"
+        ],
+        "image": "/3-Mechanics/CLI/bestiary/humanoid/token/cultist-fanatic-xmm.webp",
+        "layout": "Basic 5e Layout"
+      }
+    ],
+    [
+      "Spy (XMM)",
+      {
+        "name": "Spy (XMM)",
+        "size": "Small or Medium",
+        "type": "humanoid",
+        "alignment": "Neutral",
+        "ac": 12,
+        "hp": 27,
+        "hit_dice": "6d8",
+        "modifier": 4,
+        "stats": [
+          10,
+          15,
+          10,
+          12,
+          14,
+          16
+        ],
+        "speed": "30 ft., climb 30 ft.",
+        "skillsaves": [
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/skills.md#Deception|Deception<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+5"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/skills.md#Insight|Insight<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+4"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/skills.md#Investigation|Investigation<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+5"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/skills.md#Perception|Perception<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+6"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/skills.md#Sleight%20of%20Hand|Sleight of Hand<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+4"
+          },
+          {
+            "name": "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/skills.md#Stealth|Stealth<STATBLOCK-MARKDOWN-LINK>",
+            "desc": "+6"
+          }
+        ],
+        "gear": [
+          "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/items/hand-crossbow-xphb.md|hand crossbow<STATBLOCK-MARKDOWN-LINK>",
+          "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/items/shortsword-xphb.md|shortsword<STATBLOCK-MARKDOWN-LINK>",
+          "<STATBLOCK-MARKDOWN-LINK>/3-Mechanics/CLI/items/thieves-tools-xphb.md|thieves' tools<STATBLOCK-MARKDOWN-LINK>"
+        ],
+        "senses": "passive Perception 16",
+        "languages": "Common plus one other language",
+        "cr": "1",
+        "actions": [
+          {
+            "desc": "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.",
+            "name": "Shortsword"
+          },
+          {
+            "desc": "*Ranged Attack Roll:* +4, range 30/120 ft. *Hit:* 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.",
+            "name": "Hand Crossbow"
+          }
+        ],
+        "bonus_actions": [
+          {
+            "desc": "The spy takes the Dash, Disengage, or Hide action.",
+            "name": "Cunning Action"
+          }
+        ],
+        "source": [
+          "XMM"
+        ],
+        "image": "/3-Mechanics/CLI/bestiary/humanoid/token/spy-xmm.webp",
+        "layout": "Basic 5e Layout"
+      }
+    ]
+  ],
+  "defaultLayouts": {},
+  "layouts": [],
+  "default": "basic-5e-layout",
+  "useDice": true,
+  "renderDice": false,
+  "export": true,
+  "showAdvanced": false,
+  "version": {
+    "major": 4,
+    "minor": 10,
+    "patch": 2
+  },
+  "paths": [
+    "/"
+  ],
+  "autoParse": false,
+  "disableSRD": false,
+  "tryToRenderLinks": true,
+  "debug": false,
+  "notifiedOfFantasy": false,
+  "hideConditionHelp": false,
+  "alwaysImport": false,
+  "defaultLayoutsIntegrated": true,
+  "atomicWrite": false
+}

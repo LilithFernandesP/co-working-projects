@@ -1,0 +1,29 @@
+{
+  "frames": [
+    {
+      "url": "https://app.roll20.net/join/20837913/kuLlHA",
+      "displayName": "Roll20",
+      "icon": "",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://app.roll20.net/characters/sheet/15811790?sheet_shortname=ogl5e",
+      "displayName": "lazanho",
+      "icon": "",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}

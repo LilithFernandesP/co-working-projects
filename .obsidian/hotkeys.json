@@ -1,0 +1,26 @@
+{
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "obsidian42-brat:AddBetaPlugin": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
+  ],
+  "obsidian42-brat:opentPluginSettings": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad0"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "pluginList": [
+    "RedReaper-21/TTRPG-Search",
+    "archivist-gg/archivist-obsidian-plugin"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "RedReaper-21/TTRPG-Search",
+      "version": "latest"
+    },
+    {
+      "repo": "archivist-gg/archivist-obsidian-plugin",
+      "version": "latest"
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "globalTokenName": "",
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": false,
+  "allowIncompatiblePlugins": false
+}
